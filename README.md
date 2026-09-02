@@ -39,7 +39,7 @@ The testing surfaced several significant defects, including an **IDOR vulnerabil
 | `0112230663_SystemTesting.postman_collection(2).json` | Postman collection — Orders, Lifecycle, Cancellations & Ratings |
 | `0112230232_SystemTesting.postman_collection (1).json` | Postman collection — Auth, Restaurants & Menu |
 | `0112230663_0112230232_SystemTesting.postman_environment.json` | Postman environment for running the collections |
-| `0112230663_0112230232_System_Testing_Report.md` | Full system testing report — test plans, test cases, and defect reports |
+| `0112230663_0112230232_SystemTestingReport.md` | Full system testing report — test plans, test cases, and defect reports |
 | `documentation.md` | Full API documentation of the Panda-Lite system under test |
 
 ## How to Run the Tests
@@ -52,4 +52,4 @@ The testing surfaced several significant defects, including an **IDOR vulnerabil
 newman run "0112230663_SystemTesting.postman_collection(2).json" -e "0112230663_0112230232_SystemTesting.postman_environment.json"
 ```
 
-Detailed test plans, executed test cases (with expected vs. actual status codes), and defect reports can be found in the [System Testing Report](0112230663_0112230232_System_Testing_Report.md).
+Detailed test plans, executed test cases (with expected vs. actual status codes), and defect reports can be found in the [System Testing Report](0112230663_0112230232_SystemTestingReport.md).
